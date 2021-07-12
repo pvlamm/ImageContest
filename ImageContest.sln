@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[ cli ]", "[ cli ]", "{5539D971-50DA-4EFA-A97E-DA1C64991F1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[ web ]", "[ web ]", "{A76F209B-2280-4FEC-AFAF-7DA615E8DE03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[ lib ]", "[ lib ]", "{0E38EAEC-DA2D-458F-B852-A735C5AF9B84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageSource", "cli\ImageSource\ImageSource.csproj", "{32222F85-7CA1-4664-BBE8-B3FDFCB45185}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageContest.Domain", "lib\ImageContest.Domain\ImageContest.Domain.csproj", "{5B487EBC-45CB-4A50-A2A2-A0BA9458CB0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageContest.Application", "lib\ImageContest.Application\ImageContest.Application.csproj", "{920299DB-B3AD-4C32-BE38-A0537FA81D34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageContest.Infrastructure", "lib\ImageContest.Infrastructure\ImageContest.Infrastructure.csproj", "{87EE02DE-0D7B-4065-9BC7-EE402B908A25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32222F85-7CA1-4664-BBE8-B3FDFCB45185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32222F85-7CA1-4664-BBE8-B3FDFCB45185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32222F85-7CA1-4664-BBE8-B3FDFCB45185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32222F85-7CA1-4664-BBE8-B3FDFCB45185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B487EBC-45CB-4A50-A2A2-A0BA9458CB0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B487EBC-45CB-4A50-A2A2-A0BA9458CB0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B487EBC-45CB-4A50-A2A2-A0BA9458CB0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B487EBC-45CB-4A50-A2A2-A0BA9458CB0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920299DB-B3AD-4C32-BE38-A0537FA81D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920299DB-B3AD-4C32-BE38-A0537FA81D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920299DB-B3AD-4C32-BE38-A0537FA81D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920299DB-B3AD-4C32-BE38-A0537FA81D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87EE02DE-0D7B-4065-9BC7-EE402B908A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87EE02DE-0D7B-4065-9BC7-EE402B908A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87EE02DE-0D7B-4065-9BC7-EE402B908A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87EE02DE-0D7B-4065-9BC7-EE402B908A25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32222F85-7CA1-4664-BBE8-B3FDFCB45185} = {5539D971-50DA-4EFA-A97E-DA1C64991F1D}
+		{5B487EBC-45CB-4A50-A2A2-A0BA9458CB0F} = {0E38EAEC-DA2D-458F-B852-A735C5AF9B84}
+		{920299DB-B3AD-4C32-BE38-A0537FA81D34} = {0E38EAEC-DA2D-458F-B852-A735C5AF9B84}
+		{87EE02DE-0D7B-4065-9BC7-EE402B908A25} = {0E38EAEC-DA2D-458F-B852-A735C5AF9B84}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {262C8CE4-D216-485F-87D3-99E566805852}
+	EndGlobalSection
+EndGlobal
