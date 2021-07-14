@@ -5,7 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Persistence\Configuration\" />
     <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ImageContest.Application\ImageContest.Application.csproj" />
   </ItemGroup>
 
 </Project>

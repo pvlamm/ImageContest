@@ -7,6 +7,17 @@
 
   <ItemGroup>
     <Folder Include="Common\" />
+    <Folder Include="Utilities\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\lib\ImageContest.Application\ImageContest.Application.csproj" />
+    <ProjectReference Include="..\..\lib\ImageContest.Domain\ImageContest.Domain.csproj" />
+    <ProjectReference Include="..\..\lib\ImageContest.Infrastructure\ImageContest.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
