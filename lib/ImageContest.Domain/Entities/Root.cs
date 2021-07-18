@@ -11,6 +11,6 @@ namespace ImageContest.Domain.Entities
         public int Id { get; set; }
         public string Name { get; set; }
         public string RootFolder { get; set; }
-        public HashSet<ImageFolder> Folders { get; set; } = new HashSet<ImageFolder>();
+        public IEnumerable<ImageFolder> Folders { get; set; } = new HashSet<ImageFolder>();
     }
 }

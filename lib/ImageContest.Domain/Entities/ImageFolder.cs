@@ -13,6 +13,6 @@ namespace ImageContest.Domain.Entities
         public string Folder { get; set; }
         public virtual Root Parent { get; set; }
         public int ParentId { get; set; }
-        public HashSet<ImageSet> ImageSets { get; set; } = new HashSet<ImageSet>();
+        public IEnumerable<ImageSet> ImageSets { get; set; } = new HashSet<ImageSet>();
     }
 }

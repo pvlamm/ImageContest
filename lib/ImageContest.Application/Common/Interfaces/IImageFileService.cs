@@ -9,7 +9,7 @@ namespace ImageContest.Application.Common.Interfaces
 {
     public interface IImageFileService
     {
-        public IEnumerable<ImageFolder> GetImageFolders(string rootFolder);
-        public IEnumerable<ImageFolder> GetImageFolders(Root rootFolder);
+        public Root GetImageFolders(string rootFolder);
+        public Root GetImageFolders(Root rootFolder);
     }
 }
