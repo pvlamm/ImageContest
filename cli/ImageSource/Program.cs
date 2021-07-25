@@ -12,6 +12,12 @@ namespace ImageSource
         static void Main(string[] args)
         {
             var fileService = GetImageFileService();
+            var folders = fileService.GetImageFolders(GetRootFolder());
+
+            foreach(var folder in folders.Folders)
+            {
+                Console.WriteLine(folder.Name);
+            }
         }
 
 
@@ -28,6 +34,11 @@ namespace ImageSource
             optionsBuilder.UseSqlServer(connectionString);
 
             return new ApplicationDbContext(optionsBuilder.Options);
+        }
+
+        public static string GetRootFolder()
+        {
+            return ConfigurationManager.AppSettings["rootFolder"].Trim();
         }
     }
 }
